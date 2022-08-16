@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class week1{
     public static void main(String[] args) {
+        // Çalışma-1 : Klavyeden girilen denklem katsayılarından denklemin köklerini bulma.
         Scanner deger = new Scanner(System.in);
         int a,b,c;
         int x1,x2;
@@ -40,10 +41,11 @@ public class week1{
         //getDigitSum(321);
     }
     public static void getDigitSum( int number){
+      //döngü kullanmadan üç basamaklı bir sayının basamakları toplamı
       int b,c,d;
       b = number %10;
       c = (number %100-b)/10;
-      d = (number %1000-c-b)/100;
+      d = (number-c-b)/100;
       System.out.println(b+c+d);
     }   
 }
