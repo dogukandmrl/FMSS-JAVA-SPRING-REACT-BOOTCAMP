@@ -1,0 +1,16 @@
+#navbar{
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    overflow: hidden;
+    height: 90px;
+}
+#experience .items{
+    flex-direction: column;
+}
+#experience .items .item{
+    width: 100%;
+}
+.projects .project{
+    flex-direction: column;
+}

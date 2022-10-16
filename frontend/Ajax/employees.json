@@ -1,0 +1,17 @@
+[
+    {
+        "name":"Mustafa",
+        "department":"Yazılım",
+        "salary": 20000
+    },
+    {
+        "name":"Zeynep",
+        "department":"İnsan Kaynakları",
+        "salary": 15000
+    },
+    {
+        "name":"Kemal",
+        "department":"Pazarlama",
+        "salary": 10000
+    }
+]
